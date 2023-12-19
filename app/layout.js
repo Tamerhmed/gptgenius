@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 		<ClerkProvider>
 			<html
 				lang='en'
-				data-theme='lofi'
+				data-theme='winter'
 			>
 				<body className={inter.className}>
 					<Providers>{children}</Providers>

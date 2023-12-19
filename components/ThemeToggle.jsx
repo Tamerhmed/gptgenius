@@ -3,15 +3,15 @@ import { useState } from "react";
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
 const themes = {
-  lofi: 'lofi',
+  winter: 'winter',
   night:'night'
 }
 
 const ThemeToggle = () => {
-  const [theme, setTheme] = useState(themes.lofi);
+  const [theme, setTheme] = useState(themes.winter);
 
   const toggleTheme = ()=> {
-    const newTheme = theme === themes.lofi ? themes.night : themes.lofi;
+    const newTheme = theme === themes.winter ? themes.night : themes.winter;
     document.documentElement.setAttribute('data-theme', newTheme);
     setTheme(newTheme);
   }
@@ -21,7 +21,7 @@ const ThemeToggle = () => {
 			onClick={toggleTheme}
 			className='btn btn-sm btn-outline'
 		>
-			{theme === 'lofi' ? (
+			{theme === 'winter' ? (
 				<BsMoonFill className='h-4 w-4' />
 			) : (
 				<BsSunFill className='h-4 w-4' />
