@@ -6,10 +6,15 @@ export default function Home() {
 		<div className='hero min-h-screen bg-base-200'>
 			<div className='hero-content text-center'>
 				<div className='max-w-md'>
-					<h1 className='text-6xl font-bold text-primary'>GPTGenius </h1>
+					<h1 className='text-6xl font-bold text-primary'>
+						Explore tours with GPT
+					</h1>
 					<p className='py-6 text-lg leading-loose'>
-						GPTGenius: Your AI language companion. Powered by OpenAI, it
-						enhances your conversations, content creation, and more!
+						Set off on an exploration journey with GPT, plunging into an array
+						of captivating tours customized to your preferences. Discover hidden
+						treasures, immerse yourself in diverse cultures, and craft
+						unforgettable memories as you journey alongside GPT, your steadfast
+						companion.
 					</p>
 					<Link
 						href='/chat'
