@@ -15,7 +15,7 @@ const NavLinks = () => {
 					<li key={link.href}>
 						<Link
 							href={link.href}
-							className='capitalize'
+							className='capitalize text-lg font-medium'
 						>
 							{link.label}
 						</Link>
